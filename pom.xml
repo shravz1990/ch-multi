@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.mavenbook.multi</groupId>
   <artifactId>parent</artifactId>
-  <version>13.99-SNAPSHOT</version>
+  <version>113.99-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Multi Chapter Parent  Project</name>
   <modules>
@@ -38,7 +38,10 @@
           
         </configuration>
       </plugin>
-      
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.0.1</version>
     </plugins>
   </build>	
    <distributionManagement>

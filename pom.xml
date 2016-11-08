@@ -7,7 +7,7 @@
   <groupId>org.sonatype.mavenbook.multi</groupId>
   <artifactId>parent</artifactId>
   <version>113.99-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>pom</packaging>
   <name>Multi Chapter Parent  Project</name>
   <modules>
     <module>simple-parent</module>

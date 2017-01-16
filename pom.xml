@@ -135,7 +135,7 @@
 <pluginRepositories>
 <pluginRepository>
 <id>releases</id>
-        <url>http://127.0.0.1:8081/nexus/content/groups/public/</url>
+        <url>s3://s3-artifactsrepo/release/</url>
         <releases>
 <enabled>true</enabled>
 </releases>

@@ -115,7 +115,7 @@
     <url>s3://s3-artifactsrepo/release</url>
   </repository>
   <snapshotRepository>
-    <id>s3repo-snapshots</id>
+    <id>s3repo-snapshot</id>
     <url>s3://s3-artifactsrepo/snapshot</url>
   </snapshotRepository>
 </distributionManagement>

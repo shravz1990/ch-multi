@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.sonatype.mavenbook.multi</groupId>
     <artifactId>simple-parent</artifactId>
-    <version>113.99-SNAPSHOT</version>
+    <version>114.00</version>
   </parent>
 
   <artifactId>simple-webapp</artifactId>

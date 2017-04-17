@@ -1,1 +1,4 @@
 http://radify.io/blog/painless-immutable-infrastructure-with-ansible-and-aws/
+
+
+http://tomoconnor.eu/blogish/getting-started-ansible/#.WPRM3mnyvIU    - ------------------  Getting started

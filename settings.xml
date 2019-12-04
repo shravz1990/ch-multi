@@ -4,7 +4,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://localhost:8081/nexus/content/groups/public</url>
+      <url>http://ec2-18-216-104-215.us-east-2.compute.amazonaws.com:8081/nexus/content/groups/public</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -34,4 +34,11 @@
     <!--make the profile active all the time -->
     <activeProfile>nexus</activeProfile>
   </activeProfiles>
+  <servers>   
+<server>   
+    <id>nexus-snapshot</id>   
+    <username>admin</username>   
+    <password>admin123</password>      
+</server>  
+</server>   
 </settings>

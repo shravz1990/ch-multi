@@ -115,8 +115,8 @@
     <url>s3://s3-artifactsrepo/release</url>
   </repository>
   <snapshotRepository>
-    <id>s3repo-snapshot</id>
-    <url>s3://s3-artifactsrepo/snapshot</url>
+    <id>nexus-snapshot</id>
+    <url>http://ec2-18-216-104-215.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 <repositories>
